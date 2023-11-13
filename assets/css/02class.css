@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+
+border: solid 1px black;
+background-color: #28a177;
+color: white;
+/*  */
+/* width: 900px; */
+width: 600px;
+height: 300px;
+
+}
+
+.child{
+    
+    border: solid 1px orangered;
+    background-color: rgb(200, 99, 45);
+    /*  */
+    /* width: 50%; */
+    /* width: 100vw;
+    height: 10vh; */
+
+    /* width: 100svw;
+    height: 100svh; */
+
+    width: 50%;
+    height: 50%;
+
+}
+
+.myTestInput{
+    font-size: 18;
+    margin: 2em;
+}
+
+.myTestButton{
+font-size: 18px;
+margin: 3rem;
+}

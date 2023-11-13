@@ -1,0 +1,17 @@
+@font-face {
+    font-family: flowrise;
+    src: url('../fonts/flowrise.ttf');
+}
+
+@font-face {
+    font-family: theobald_clean;
+    src: url('../fonts/theobald_clean.ttf');
+}
+
+
+.p1{
+    font-family: flowrise;
+}
+.p2{
+    font-family:theobald_clean;
+}

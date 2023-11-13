@@ -1,0 +1,50 @@
+* {
+    border-radius: 1em;
+    padding: 2px;
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(215, 250, 235);
+    z-index: 1000;
+    /* Asegura que el encabezado esté por encima del resto del contenido */
+}
+
+main {
+    margin-top: 60px;
+    /* Ajusta este valor según la altura de tu encabezado */
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+    color: white;
+}
+
+body {
+    background-image: url('./../img/05class.jpg');
+    /* background-position: 50%; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    background-size: contain;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(79, 125, 139, 1) 20%, rgba(5, 93, 177, 1) 62%, rgba(3, 149, 214, 1) 80%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    background-color: rosybrown;
+}

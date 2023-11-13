@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.myText{
+    background: linear-gradient(#ccc,#000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+}

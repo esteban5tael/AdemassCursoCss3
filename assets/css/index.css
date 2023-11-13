@@ -1,0 +1,56 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* Choose a suitable font for your design */
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    border-bottom: 2px solid #555;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    transition: color 0.3s ease-in-out;
+    font-size: 10px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Improve the overall layout of the navigation */
+nav {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Style for responsive design */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}

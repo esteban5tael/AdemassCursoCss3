@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: red;
+}
+
+::-webkit-slider-thumb{
+    border-radius: 5px;
+    color: black;
+
+}
+
+::-webkit-slider-thumb{
+    border-radius: 5px;
+    color: blue;
+    background-color: yellowgreen;
+
+}

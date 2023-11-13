@@ -1,0 +1,23 @@
+:root{
+    --color-one:orange;
+    --color-two:red;
+    --color-three:blue;
+    --color-four:yellow;
+    --color-five:brown;
+    --color-h:darkgreen;
+
+    --bg-color:grey;
+}
+*{
+    background-color: var(--bg-color);
+}
+h4{
+    text-align: center;
+}
+
+.pOne{ color: var(--color-one);}
+.pTwo{ color: var(--color-two);}
+.pThree{ color: var(--color-three);}
+.pFour{ color: var(--color-four);}
+.pFive{ color: var(--color-five);}
+h3{ color: var(--color-h);}

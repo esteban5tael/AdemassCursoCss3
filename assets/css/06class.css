@@ -1,0 +1,70 @@
+header {
+    text-align: center;
+    background-color: gray;
+}
+
+nav {
+    background-color: rgb(202, 199, 199);
+    position: absolute;
+    
+}
+
+ul {
+    list-style-type: none;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+a:hover {
+    background-color: gray;
+    color: black;
+}
+
+a {
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.dTest {
+    padding: 50px;
+    cursor: copy;
+    width: 350px;
+    height: 50px;
+    background-color: aquamarine;
+    overflow-y: scroll;
+
+}
+
+.pTest {
+    margin: 50px;
+    cursor: grab;
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    overflow: hidden;
+    position: absolute;
+    top: 1;
+    left: 0;
+    z-index: 1;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color:black;
+    overflow: hidden;
+    position: absolute;
+    top:20;
+    left: 20;
+    z-index: 0;
+}

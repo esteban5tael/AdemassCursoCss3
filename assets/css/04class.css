@@ -1,0 +1,102 @@
+* {
+    background-color: rgb(215, 250, 235);
+    border-radius: 1em;
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    position: sticky;
+    top: 0px;
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+}
+
+.mainP {
+
+    float: right;
+    color: purple;
+}
+
+/* h3{
+    position: relative;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    padding: 15px;
+    top: 100px;
+    left: 250px;
+}
+
+p{
+    position: relative;
+    background-color: blueviolet;
+    color: darkblue;
+    padding: 30px;
+    right: 20%;
+} */
+/* .card {
+    margin: 3px;
+    padding: 15px;
+    position: relative;
+    background-color: seagreen;
+    width: 500px;
+    height: 500px;
+}
+.card-title {
+    padding: 1%;
+    background-color:#050505;
+    color: orangered;
+
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+} */
+
+.card {
+    margin: 3px;
+    padding: 15px;
+    position: relative;
+    background-color: seagreen;
+    width: 500px;
+    height: 500px;
+}
+
+/* .card-title {
+    padding: 1%;
+    background-color:#050505;
+    color: orangered;
+
+    position: fixed;
+    bottom: 0px;
+    left: 200px;
+} */
+/* .card-title {
+    padding: 1%;
+    background-color:#050505;
+    color: orangered;
+
+    position: inherit;
+    bottom: 0px;
+    left: 200px;
+} */
+
+.card-title {
+    padding: 1%;
+    background-color: #050505;
+    color: orangered;
+
+    /* position: sticky; */
+    float: left;
+    top: 0px;
+    left: 200px;
+    margin: 5px;
+}
+
+#cleaner{
+clear: both;
+}
